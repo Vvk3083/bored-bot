@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+body{ 
+    height: 100vh;
+}
+.main-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border: 5px solid;
+    border-radius: 10px;
+    width: 550px;
+    height: 100%; 
+    margin: auto auto;
+    background: linear-gradient(rgb(139, 139, 198),rgb(13, 13, 224));
+}
+.placeholder{
+    width: 300px;
+    height:200px;
+    border: 2px solid;
+    border-radius: 5%;
+    text-align: center;
+    background-color: rgb(222, 225, 222);
+    padding: 10px;
+}
+
+button{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color:rgb(44, 109, 132);
+    color: white;
+    border:none;
+    font-size: medium;
+    font-weight: bold;
+    border: 2px solid rgb(5, 74, 93);
+} 
+button:active{
+    position: relative;
+    top:2px;
+}

@@ -39,8 +39,10 @@ button{
     font-size: medium;
     font-weight: bold;
     border: 2px solid rgb(5, 74, 93);
+    /* filter:drop-shadow(3px 1px 4px rgb(113, 179, 212)); */
 } 
 button:active{
     position: relative;
     top:2px;
+    /* filter:none */
 }
